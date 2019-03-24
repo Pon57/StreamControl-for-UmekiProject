@@ -1,0 +1,147 @@
+body {
+    margin:0px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: 1280px, 720px;
+	font-family: 'Gadugi','Mona';
+	font-weight: bold;
+	font-size: 14 px;
+    color:#050505;
+    overflow: hidden;
+    width:1280px;
+    height:720px;
+	-webkit-touch-callout: none;
+  	-webkit-user-select: none;
+}
+
+#container {
+	width:1280px;
+	height:720px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+#score1 {
+    position: absolute;
+    z-index: 5;
+    width: 52px;
+    height: 25px;
+    left: 267px;
+    top: 606px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+#score2 {
+    position: absolute;
+    z-index: 5;
+    width: 52px;
+    height: 25px;
+    right: 267px;
+    top: 629px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    transform: scale(1, -1);
+}
+
+#fighter1 img {
+    position: absolute;
+    z-index: 5;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    width: 122px;
+    height: auto;
+}
+#fighter2 img {
+    position: absolute;
+    z-index: 5;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    width: 122px;
+    height: auto;
+}
+
+#player1 {
+    position: absolute;
+    z-index: 5;
+    width: 200px;
+    height: 30px;
+    left: 365px;
+    top: 610px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+#player2 {
+    position: absolute;
+    z-index: 5;
+    width: 200px;
+    height: 30px;
+    right: 365px;
+    top: 610px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+#twitter1 {
+    position: absolute;
+    z-index: 5;
+    width: 200px;
+    height: 30px;
+    left: 280px;
+    bottom: 5px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 30px;
+}
+
+#twitter2 {
+    position: absolute;
+    z-index: 5;
+    width: 200px;
+    height: 30px;
+    right: 280px;
+    bottom: 5px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 30px;
+}
+
+.twitter img {
+    position: relative;
+    height: 25px;
+    right: 10px;
+    bottom: 2px;
+    vertical-align: middle;
+}
+
+#stage {
+    position: absolute;
+    z-index: 5;
+    width: 170px;
+    height: 30px;
+    bottom: -5px;
+    left: 555px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.hidden {
+	display: none;
+}

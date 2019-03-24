@@ -1,0 +1,202 @@
+<!DOCTYPE StreamControlLayout>
+<layout width="450" height="250" tabbed="1">
+ <toolBar>
+  <label>Best of</label>
+  <comboBox id="bestOf" width="50">
+    <comboItem value="bo3" >3</comboItem>
+    <comboItem value="bo5" >5</comboItem>
+  </comboBox>
+ </toolBar>
+ <tab name="Match">
+  <label x="30" y="4" width="40" height="13">Name</label>
+  <lineEdit id="pName1" x="35" y="20" width="140" height="20" dataSet="players.csv" />
+  <label x="30" y="45" width="40" height="13">Twitter</label>
+  <lineEdit id="pTwitter1" x="35" y="60" width="140" height="20" dataSet="players.csv" dataField="2" master="pName1" />
+  <spinBox id="pScore1" x="180" y="60" width="30" height="22" maximum="3" />
+  <label x="30" y="85" width="40" height="13">Fighter</label>
+  <comboBox id="pFighter1" x="35" y="100" width="140" height="20">
+    <comboItem value="ike" >アイク</comboItem>
+    <comboItem value="ice_climber" >アイスクライマー</comboItem>
+    <comboItem value="inkling" >インクリング</comboItem>
+    <comboItem value="wolf" >ウルフ</comboItem>
+    <comboItem value="kirby" >カービィ</comboItem>
+    <comboItem value="gaogaen" >ガオガエン</comboItem>
+    <comboItem value="ganondorf" >ガノンドロフ</comboItem>
+    <comboItem value="kamui_man" >カムイ（男）</comboItem>
+    <comboItem value="kamui_woman" >カムイ（女）</comboItem>
+    <comboItem value="captain_falcon" >キャプテン・ファルコン</comboItem>
+    <comboItem value="king_k_rool" >キングクルール</comboItem>
+    <comboItem value="koopa" >クッパ</comboItem>
+    <comboItem value="koopa_jr" >クッパJr.</comboItem>
+    <comboItem value="cloud" >クラウド</comboItem>
+    <comboItem value="chrom" >クロム</comboItem>
+    <comboItem value="gekkouga" >ゲッコウガ</comboItem>
+    <comboItem value="ken" >ケン</comboItem>
+    <comboItem value="young_link" >こどもリンク</comboItem>
+    <comboItem value="samus" >サムス</comboItem>
+    <comboItem value="sheik" >シーク</comboItem>
+    <comboItem value="sizue" >しずえ</comboItem>
+    <comboItem value="simon" >シモン</comboItem>
+    <comboItem value="shulk" >シュルク</comboItem>
+    <comboItem value="snake" >スネーク</comboItem>
+    <comboItem value="zelda" >ゼルダ</comboItem>
+    <comboItem value="zero_suit_samus" >ゼロスーツサムス</comboItem>
+    <comboItem value="sonic" >ソニック</comboItem>
+    <comboItem value="dark_samus" >ダークサムス</comboItem>
+    <comboItem value="duck_hunt" >ダックハント</comboItem>
+    <comboItem value="daisy" >デイジー</comboItem>
+    <comboItem value="diddy_kong" >ディディーコング</comboItem>
+    <comboItem value="dedede" >デデデ大王</comboItem>
+    <comboItem value="toon_link" >トゥーンリンク</comboItem>
+    <comboItem value="dr_mario" >ドクターマリオ</comboItem>
+    <comboItem value="donkey_kong" >ドンキーコング</comboItem>
+    <comboItem value="ness" >ネス</comboItem>
+    <comboItem value="pac-man" >パックマン</comboItem>
+    <comboItem value="packun_flower" >パックンフラワー</comboItem>
+    <comboItem value="palutena" >パルテナ</comboItem>
+    <comboItem value="peach" >ピーチ</comboItem>
+    <comboItem value="pikachu" >ピカチュウ</comboItem>
+    <comboItem value="pikmin_and_olimar" >ピクミン＆オリマー</comboItem>
+    <comboItem value="pichu" >ピチュー</comboItem>
+    <comboItem value="pit" >ピット</comboItem>
+    <comboItem value="falco" >ファルコ</comboItem>
+    <comboItem value="fox" >フォックス</comboItem>
+    <comboItem value="black_pit" >ブラックピット</comboItem>
+    <comboItem value="purin" >プリン</comboItem>
+    <comboItem value="bayonetta" >ベヨネッタ</comboItem>
+    <comboItem value="pokemon_trainer_man" >ポケモントレーナー（男）</comboItem>
+    <comboItem value="pokemon_trainer_woman" >ポケモントレーナー（女）</comboItem>
+    <comboItem value="mario" >マリオ</comboItem>
+    <comboItem value="marth" >マルス</comboItem>
+    <comboItem value="mewtwo" >ミュウツー</comboItem>
+    <comboItem value="murabito" >むらびと</comboItem>
+    <comboItem value="metaknight" >メタナイト</comboItem>
+    <comboItem value="yoshi" >ヨッシー</comboItem>
+    <comboItem value="ridley" >リドリー</comboItem>
+    <comboItem value="little_mac" >リトルマック</comboItem>
+    <comboItem value="richter" >リヒター</comboItem>
+    <comboItem value="ryu" >リュウ</comboItem>
+    <comboItem value="lucas" >リュカ</comboItem>
+    <comboItem value="link" >リンク</comboItem>
+    <comboItem value="luigi" >ルイージ</comboItem>
+    <comboItem value="lucario" >ルカリオ</comboItem>
+    <comboItem value="lucina" >ルキナ</comboItem>
+    <comboItem value="reflet_man" >ルフレ（男）</comboItem>
+    <comboItem value="reflet_woman" >ルフレ（女）</comboItem>
+    <comboItem value="roy" >ロイ</comboItem>
+    <comboItem value="rosetta_and_chiko" >ロゼッタ＆チコ</comboItem>
+    <comboItem value="rockman" >ロックマン</comboItem>
+    <comboItem value="robotto" >ロボット</comboItem>
+    <comboItem value="wario" >ワリオ</comboItem>
+    <comboItem value="mii_brawler" >Miiファイター(格闘)</comboItem>
+    <comboItem value="mii_sword_fighter" >Miiファイター(剣術)</comboItem>
+    <comboItem value="mii_gunner" >Miiファイター(射撃)</comboItem>
+    <comboItem value="mt_game_and_watch" >Mr. ゲーム＆ウォッチ</comboItem>
+    <comboItem value="wii_fit_trainer" >Wii Fit トレーナー</comboItem>
+  </comboBox>
+
+  <button type="swap" x="197" y="20" width="51" height="23" tooltip="Swap the Scores" id="swap" swapSet1="pName1,pTwitter1,pScore1,pFighter1" swapSet2="pName2,pTwitter2,pScore2,pFighter2"> ⇔</button>
+
+  <label x="265" y="4" width="40" height="13">Name</label>
+  <lineEdit id="pName2" x="270" y="20" width="140" height="20" dataSet="players.csv" />
+  <label x="265" y="45" width="40" height="13">Twitter</label>
+  <lineEdit id="pTwitter2" x="270" y="60" width="140" height="20" dataSet="players.csv" dataField="2" master="pName2" />
+  <spinBox id="pScore2" x="235" y="60" width="30" height="22" maximum="3" />
+  <label x="265" y="85" width="40" height="13">Fighter</label>
+  <comboBox id="pFighter2" x="270" y="100" width="140" height="20">
+    <comboItem value="ike" >アイク</comboItem>
+    <comboItem value="ice_climber" >アイスクライマー</comboItem>
+    <comboItem value="inkling" >インクリング</comboItem>
+    <comboItem value="wolf" >ウルフ</comboItem>
+    <comboItem value="kirby" >カービィ</comboItem>
+    <comboItem value="gaogaen" >ガオガエン</comboItem>
+    <comboItem value="ganondorf" >ガノンドロフ</comboItem>
+    <comboItem value="kamui_man" >カムイ（男）</comboItem>
+    <comboItem value="kamui_woman" >カムイ（女）</comboItem>
+    <comboItem value="captain_falcon" >キャプテン・ファルコン</comboItem>
+    <comboItem value="king_k_rool" >キングクルール</comboItem>
+    <comboItem value="koopa" >クッパ</comboItem>
+    <comboItem value="koopa_jr" >クッパJr.</comboItem>
+    <comboItem value="cloud" >クラウド</comboItem>
+    <comboItem value="chrom" >クロム</comboItem>
+    <comboItem value="gekkouga" >ゲッコウガ</comboItem>
+    <comboItem value="ken" >ケン</comboItem>
+    <comboItem value="young_link" >こどもリンク</comboItem>
+    <comboItem value="samus" >サムス</comboItem>
+    <comboItem value="sheik" >シーク</comboItem>
+    <comboItem value="sizue" >しずえ</comboItem>
+    <comboItem value="simon" >シモン</comboItem>
+    <comboItem value="shulk" >シュルク</comboItem>
+    <comboItem value="snake" >スネーク</comboItem>
+    <comboItem value="zelda" >ゼルダ</comboItem>
+    <comboItem value="zero_suit_samus" >ゼロスーツサムス</comboItem>
+    <comboItem value="sonic" >ソニック</comboItem>
+    <comboItem value="dark_samus" >ダークサムス</comboItem>
+    <comboItem value="duck_hunt" >ダックハント</comboItem>
+    <comboItem value="daisy" >デイジー</comboItem>
+    <comboItem value="diddy_kong" >ディディーコング</comboItem>
+    <comboItem value="dedede" >デデデ大王</comboItem>
+    <comboItem value="toon_link" >トゥーンリンク</comboItem>
+    <comboItem value="dr_mario" >ドクターマリオ</comboItem>
+    <comboItem value="donkey_kong" >ドンキーコング</comboItem>
+    <comboItem value="ness" >ネス</comboItem>
+    <comboItem value="pac-man" >パックマン</comboItem>
+    <comboItem value="packun_flower" >パックンフラワー</comboItem>
+    <comboItem value="palutena" >パルテナ</comboItem>
+    <comboItem value="peach" >ピーチ</comboItem>
+    <comboItem value="pikachu" >ピカチュウ</comboItem>
+    <comboItem value="pikmin" >ピクミン＆オリマー</comboItem>
+    <comboItem value="pichu" >ピチュー</comboItem>
+    <comboItem value="pit" >ピット</comboItem>
+    <comboItem value="falco" >ファルコ</comboItem>
+    <comboItem value="fox" >フォックス</comboItem>
+    <comboItem value="black_pit" >ブラックピット</comboItem>
+    <comboItem value="purin" >プリン</comboItem>
+    <comboItem value="bayonetta" >ベヨネッタ</comboItem>
+    <comboItem value="pokemon_trainer_man" >ポケモントレーナー（男）</comboItem>
+    <comboItem value="pokemon_trainer_woman" >ポケモントレーナー（女）</comboItem>
+    <comboItem value="mario" >マリオ</comboItem>
+    <comboItem value="marth" >マルス</comboItem>
+    <comboItem value="mewtwo" >ミュウツー</comboItem>
+    <comboItem value="murabito" >むらびと</comboItem>
+    <comboItem value="metaknight" >メタナイト</comboItem>
+    <comboItem value="yoshi" >ヨッシー</comboItem>
+    <comboItem value="ridley" >リドリー</comboItem>
+    <comboItem value="little_mac" >リトルマック</comboItem>
+    <comboItem value="richter" >リヒター</comboItem>
+    <comboItem value="ryu" >リュウ</comboItem>
+    <comboItem value="lucas" >リュカ</comboItem>
+    <comboItem value="link" >リンク</comboItem>
+    <comboItem value="luigi" >ルイージ</comboItem>
+    <comboItem value="lucario" >ルカリオ</comboItem>
+    <comboItem value="lucina" >ルキナ</comboItem>
+    <comboItem value="reflet_man" >ルフレ（男）</comboItem>
+    <comboItem value="reflet_woman" >ルフレ（女）</comboItem>
+    <comboItem value="roy" >ロイ</comboItem>
+    <comboItem value="rosetta_and_chiko" >ロゼッタ＆チコ</comboItem>
+    <comboItem value="rockman" >ロックマン</comboItem>
+    <comboItem value="robotto" >ロボット</comboItem>
+    <comboItem value="wario" >ワリオ</comboItem>
+    <comboItem value="mii_brawler" >Miiファイター(格闘)</comboItem>
+    <comboItem value="mii_sword_fighter" >Miiファイター(剣術)</comboItem>
+    <comboItem value="mii_gunner" >Miiファイター(射撃)</comboItem>
+    <comboItem value="mt_game_and_watch" >Mr. ゲーム＆ウォッチ</comboItem>
+    <comboItem value="wii_fit_trainer" >Wii Fit トレーナー</comboItem>
+  </comboBox>
+
+  <!-- <spinBox id="pScore1" x="270" y="20" width="40" height="22" maximum="3" />
+  <lineEdit id="pName2" x="30" y="50" width="100" height="20" dataSet="players.csv" />
+  <lineEdit id="pTwitter2" x="130" y="50" width="100" height="20" dataSet="players.csv" dataField="2" master="pName2" />
+  <lineEdit id="pCountry2" x="230" y="50" width="40" height="20" dataSet="players.csv" dataField="3" master="pName2" />
+  <spinBox id="pScore2" x="270" y="50" width="40" height="22" maximum="3" />
+  <button type="reset" x="310" y="20" width="30" height="23" tooltip="Clear Player 1 fields" id="clear1" reset="pName1,pTwitter1,pScore1,pCountry1">Clear</button>
+  <button type="reset" x="340" y="20" width="30" height="23" tooltip="Reset the Scores" id="reset" reset="pScore1,pScore2">Reset</button>
+  <button type="reset" x="310" y="50" width="30" height="23" tooltip="Clear Player 2 fields" id="clear2" reset="pName2,pTwitter2,pScore2,pCountry2">Clear</button>-->
+
+  <button type="reset" x="197" y="100" width="51" height="23" tooltip="Reset the Scores" id="reset" reset="pScore1,pScore2">Reset</button>
+
+  <label x="65" y="130" width="46" height="13">Stage</label>
+  <lineEdit id="stage" x="70" y="145" width="300" height="20" />
+ </tab>
+
+</layout>
