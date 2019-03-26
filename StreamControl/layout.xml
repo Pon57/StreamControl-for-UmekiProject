@@ -91,7 +91,7 @@
     <comboItem value="mii_brawler" >Miiファイター(格闘)</comboItem>
     <comboItem value="mii_sword_fighter" >Miiファイター(剣術)</comboItem>
     <comboItem value="mii_gunner" >Miiファイター(射撃)</comboItem>
-    <comboItem value="mt_game_and_watch" >Mr. ゲーム＆ウォッチ</comboItem>
+    <comboItem value="mr_game_and_watch" >Mr. ゲーム＆ウォッチ</comboItem>
     <comboItem value="wii_fit_trainer" >Wii Fit トレーナー</comboItem>
   </comboBox>
 
@@ -180,7 +180,7 @@
     <comboItem value="mii_brawler" >Miiファイター(格闘)</comboItem>
     <comboItem value="mii_sword_fighter" >Miiファイター(剣術)</comboItem>
     <comboItem value="mii_gunner" >Miiファイター(射撃)</comboItem>
-    <comboItem value="mt_game_and_watch" >Mr. ゲーム＆ウォッチ</comboItem>
+    <comboItem value="mr_game_and_watch" >Mr. ゲーム＆ウォッチ</comboItem>
     <comboItem value="wii_fit_trainer" >Wii Fit トレーナー</comboItem>
   </comboBox>
 
