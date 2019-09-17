@@ -38,6 +38,7 @@
     <comboItem value="sizue" >しずえ</comboItem>
     <comboItem value="simon" >シモン</comboItem>
     <comboItem value="shulk" >シュルク</comboItem>
+    <comboItem value="joker" >ジョーカー</comboItem>
     <comboItem value="snake" >スネーク</comboItem>
     <comboItem value="zelda" >ゼルダ</comboItem>
     <comboItem value="zero_suit_samus" >ゼロスーツサムス</comboItem>
@@ -54,6 +55,7 @@
     <comboItem value="pac-man" >パックマン</comboItem>
     <comboItem value="packun_flower" >パックンフラワー</comboItem>
     <comboItem value="palutena" >パルテナ</comboItem>
+    <comboItem value="banjo_and_kazooie" >バンジョー＆カズーイ</comboItem>
     <comboItem value="peach" >ピーチ</comboItem>
     <comboItem value="pikachu" >ピカチュウ</comboItem>
     <comboItem value="pikmin_and_olimar" >ピクミン＆オリマー</comboItem>
@@ -93,6 +95,7 @@
     <comboItem value="mii_gunner" >Miiファイター(射撃)</comboItem>
     <comboItem value="mr_game_and_watch" >Mr. ゲーム＆ウォッチ</comboItem>
     <comboItem value="wii_fit_trainer" >Wii Fit トレーナー</comboItem>
+    <comboItem value="hero" >勇者</comboItem>
   </comboBox>
 
   <button type="swap" x="197" y="20" width="51" height="23" tooltip="Swap the Scores" id="swap" swapSet1="pName1,pTwitter1,pScore1,pFighter1" swapSet2="pName2,pTwitter2,pScore2,pFighter2"> ⇔</button>
@@ -127,6 +130,7 @@
     <comboItem value="sizue" >しずえ</comboItem>
     <comboItem value="simon" >シモン</comboItem>
     <comboItem value="shulk" >シュルク</comboItem>
+    <comboItem value="joker" >ジョーカー</comboItem>
     <comboItem value="snake" >スネーク</comboItem>
     <comboItem value="zelda" >ゼルダ</comboItem>
     <comboItem value="zero_suit_samus" >ゼロスーツサムス</comboItem>
@@ -143,6 +147,7 @@
     <comboItem value="pac-man" >パックマン</comboItem>
     <comboItem value="packun_flower" >パックンフラワー</comboItem>
     <comboItem value="palutena" >パルテナ</comboItem>
+    <comboItem value="banjo_and_kazooie" >バンジョー＆カズーイ</comboItem>
     <comboItem value="peach" >ピーチ</comboItem>
     <comboItem value="pikachu" >ピカチュウ</comboItem>
     <comboItem value="pikmin" >ピクミン＆オリマー</comboItem>
@@ -182,6 +187,7 @@
     <comboItem value="mii_gunner" >Miiファイター(射撃)</comboItem>
     <comboItem value="mr_game_and_watch" >Mr. ゲーム＆ウォッチ</comboItem>
     <comboItem value="wii_fit_trainer" >Wii Fit トレーナー</comboItem>
+    <comboItem value="hero" >勇者</comboItem>
   </comboBox>
 
   <!-- <spinBox id="pScore1" x="270" y="20" width="40" height="22" maximum="3" />
